@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/*
+Theme Name: Deconvenues
+Description: D├®convenues
+Author: Moi
+Author URI:
+Theme URI:
+Version: 1.3
+Tags: light, white, one-column
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+body {
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  line-height: normal;
+  background: #fff;
+  color: black;
+  font-size: 15px;
+  padding: 0; }
+
+.left_col {
+  float: left;
+  width: 30%;
+  height: 100%;
+  min-height: 700px;
+  padding: 30px;
+  font-size: 12px; }
+
+a {
+  color: #3c918d; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left; }
+
+.posttete {
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+  padding-top: 38px; }
+
+.posttete a {
+  color: black;
+  text-decoration: none; }
+
+#header {
+  width: 100%;
+  margin: auto;
+  border-bottom: 1px solid black;
+  display: flex; }
+  #header a {
+    text-decoration: none;
+    color: black; }
+  #header .logo {
+    width: 200px;
+    height: 150px;
+    margin-right: 50px; }
+
+.tagcloud {
+  margin: 80px auto; }
+
+.right {
+  float: right; }
+
+.footer {
+  height: 200px; }
+
+.content {
+  min-height: 300px; }
+
+.content h2, .content h3 {
+  font-size: 25px;
+  margin-top: 80px; }
+
+.credits {
+  font-size: 12px;
+  width: 100%;
+  /*position: absolute;*/
+  bottom: 20px;
+  text-align: center;
+  margin-top: 50px;
+  overflow: hidden;
+  height: 30px; }
+
+.hoverable:hover {
+  text-decoration: underline; }
+
+.deconvenue {
+  margin: 10px; }
+
+.submitssion {
+  padding: 10px; }
+
+.moncorps {
+  max-width: 60%;
+  margin: auto;
+  margin-top: 35px; }
+
+.count {
+  font-size: 11px; }

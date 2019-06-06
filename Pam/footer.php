@@ -1,0 +1,1 @@
+<div id="footer">2015 (c) Pierre Labret, design : Bruno Strecht, code : Charles Torris</div>
