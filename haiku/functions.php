@@ -448,3 +448,10 @@ function create_sujets_taxo() {
     'rewrite' => array( 'slug' => 'sujets' ),
   ));
 }
+
+
+function wpse_19692_registration_redirect() {
+    return home_url( '/' );
+}
+
+add_filter( 'registration_redirect', 'wpse_19692_registration_redirect' );
